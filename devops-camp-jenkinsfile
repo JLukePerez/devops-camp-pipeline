@@ -63,6 +63,7 @@ environment {
                     }
                 }
             }
+            
             post {
                 always {
                     echo "Clean local $DB_IMAGE_NAME image"
